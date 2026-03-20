@@ -1,0 +1,17 @@
+{
+	"name": "hostinger/wordpress-ai-plugin-builder",
+	"description": "Chat-based AI plugin generator for WordPress.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"autoload": {
+		"psr-4": {
+			"Hostinger\\AiPluginBuilder\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=8.2"
+	},
+	"require-dev": {
+		"laradumps/laradumps-core": "^4.0"
+	}
+}
